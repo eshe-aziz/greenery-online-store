@@ -1,0 +1,373 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+  }
+  
+  li {
+    float: left;
+    padding-left: 100px;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+  }
+
+.green{
+  background-color: #65A15B;
+  padding: 10px;
+display: flex;
+color: #ffffff;
+justify-content: space-evenly;
+}
+
+.lang{
+  display: flex;
+}
+
+
+  .icon{
+    display: flex;
+    gap: 20px;
+    padding-left:50px;
+    padding-right: 200px;
+    padding-top: 25px;
+    float: right;
+    color: rgb(0, 0, 0);
+    }
+
+
+    .one{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .two{
+        display: grid;
+        padding-right: 100px;
+    }
+
+    .mini1{
+        display: flex;
+    }
+
+    .sale{
+      display: flex;
+    }
+
+    .house{
+      display: flex;
+    }
+    .text-container {
+        position: relative;
+        left: 20%;
+        top: 10%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+  .three{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .text{
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sec{
+    display: flex;
+  }
+
+.grd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+  .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .sec{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+.fea{
+  text-align: center;
+}
+
+.five{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button{
+  width: 150px;
+  background-color: #65A15B;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 30px;
+  padding: 12px;
+}
+
+.living{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plant{
+  display: grid;
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.cactus{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.latest{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.testi{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.love{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.girl{
+  border-radius: 50px;
+}
+
+.dev{
+  text-align: center;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+span{
+  color: #65A15B;
+}
+
+.font{
+  font-size: 20px;
+  color: #808080;
+}
+
+@media screen and (max-width: 600px){
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+  }
+  
+  li {
+    float: left;
+    padding-left: 100px;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+  }
+
+.green{
+  background-color: #65A15B;
+  padding: 10px;
+display: flex;
+color: #ffffff;
+justify-content: space-evenly;
+}
+
+.lang{
+  display: flex;
+}
+
+  .icon{
+    display: flex;
+    gap: 20px;
+    padding-left:50px;
+    padding-right: 200px;
+    padding-top: 25px;
+    float: right;
+    color: rgb(0, 0, 0);
+    }
+
+
+    .one{
+        display: grid;
+    }
+
+    .two{
+      width: 20px;
+        display: grid;
+    }
+
+    .mini1{
+        display: grid;
+    }
+
+    .sale{
+      display: grid;
+    }
+
+    .house{
+      display: grid;
+    }
+
+  .three{
+    display: grid;
+  }
+
+  .text{
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sec{
+    display: flex;
+  }
+
+.grd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+  .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .sec{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+.fea{
+  text-align: center;
+}
+
+.tree{
+padding-left: 50px;
+}
+
+.five{
+  display: grid;
+}
+
+button{
+  width: 150px;
+  background-color: #65A15B;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 30px;
+  padding: 12px;
+}
+
+.living{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.plant{
+  display: grid;
+  max-width: 50%;
+  flex: 50%;
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.cactus{
+  margin-top: 50px;
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.latest{
+  display: grid;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.testi{
+  display: grid;
+  justify-content: space-evenly;
+}
+
+
+.love{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.girl{
+  border-radius: 50px;
+}
+
+.dev{
+  text-align: center;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer{
+  display: grid;
+  text-align: center;
+}
+
+span{
+  color: #65A15B;
+}
+
+.font{
+  font-size: 20px;
+}
+
+
+}
