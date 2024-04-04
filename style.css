@@ -208,6 +208,11 @@ span{
     text-decoration: none;
   }
 
+
+  .img{
+    width: 200px;
+  }
+
 .green{
   background-color: #65A15B;
   padding: 10px;
@@ -229,7 +234,6 @@ justify-content: space-evenly;
     float: right;
     color: rgb(0, 0, 0);
     }
-
 
     .one{
         display: grid;
@@ -266,11 +270,6 @@ justify-content: space-evenly;
   .sec{
     display: flex;
   }
-
-.grd{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
 
   .row{
     display: grid;
